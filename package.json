@@ -1,0 +1,34 @@
+{
+  "name": "pendekar-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "sebar": "vite --host=0.0.0.0 --port=8005",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.10.38",
+    "@amcharts/amcharts4-fonts": "^4.0.1",
+    "@amcharts/amcharts4-geodata": "^4.1.27",
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@solidjs/router": "^0.9.0",
+    "ag-grid-community": "^30.2.1",
+    "ag-grid-solid": "^30.2.1",
+    "js": "^0.1.0",
+    "solid-js": "^1.8.5"
+  },
+  "devDependencies": {
+    "@iconify-icon/solid": "^1.0.8",
+    "autoprefixer": "^10.4.16",
+    "daisyui": "^4.4.10",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.0.2",
+    "unocss": "^0.57.3",
+    "vite": "^4.4.5",
+    "vite-plugin-solid": "^2.7.0"
+  }
+}
